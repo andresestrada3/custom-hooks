@@ -15,7 +15,7 @@ export const useTodos = () => {
     
 
     const handleNewTodo = (todo) => {
-        // console.log(todo);
+        
         const action = {
             type: '[TODO] Add Todo',
             payload: todo
@@ -25,7 +25,7 @@ export const useTodos = () => {
     }
 
     const hadleDeleteTodo = (id) => {
-        // console.log({id});
+        
         const action = {
             type: '[TODO] Remove Todo',
             payload: id
@@ -34,7 +34,7 @@ export const useTodos = () => {
     }
 
     const handleToggleTodo = (id) => {
-        // console.log({id});
+        
         const action = {
             type: '[TODO] Toggle Todo',
             payload: id
